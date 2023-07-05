@@ -1,0 +1,10 @@
+.business-name{
+    display: flex;
+    flex-direction: row;
+}
+
+.business-name--logotype{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

@@ -1,0 +1,36 @@
+:root{
+    /*FONTS*/
+
+    --starTitle: 'Starjout';
+    --titles: 'Press Start 2P', 'Sans Serif';
+    --text: 'Comfortaa', 'Sans Serif';
+
+    /*COLORS*/
+
+    --fontDarkColor: #464646;
+    --darkBlue: #2A7AE4;
+    --gray: #C8C8C8;
+    --backgroundWhite: #FFFFFF;
+    --backgroundGrey: #F5F5F5;
+    --backgroundLightBlue: #EAF2FD;
+}
+
+
+.atoms{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.atoms *{
+    margin: 1rem;
+}
+
+@font-face {
+    font-family: 'Starjedi';
+    src: url(/assets/Starjedi.ttf);
+}
+@font-face {
+    font-family: 'Starjout';
+    src: url(/assets/Starjout.ttf);
+}

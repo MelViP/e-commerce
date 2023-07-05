@@ -1,0 +1,20 @@
+.input{
+    font-family: var(--text);
+    padding: 1rem 0 1rem 1rem;
+    border: 2px solid transparent;
+    border-bottom: 1px solid var(--gray);
+    height: 2rem;
+}
+
+.input--search{
+    height: .8rem;
+    width: 70%;
+    border-radius: 2rem;
+    color: var(--gray);
+    background: var(--backgroundGrey);
+    padding-left: 2rem;
+}
+
+.textarea{
+    height: 6rem;
+}

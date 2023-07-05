@@ -1,0 +1,27 @@
+/*titulos grandes*/
+.title_1st{
+    font-family: var(--starTitle);
+    font-size: 3.25rem;
+}
+
+.subtitle{
+    font-family: var(--text);
+    font-weight: 700;
+
+}
+
+.title__2nd{
+    font-weight: 700;
+    color: var(--fontDarkColor);
+    font-family:  var(--starTitle);
+    font-size: 2rem;
+}
+
+.title__2nd--logo1{
+    color: var( --darkBlue);
+}
+
+.destacado{
+    font-weight: bolder;
+}
+
