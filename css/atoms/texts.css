@@ -1,4 +1,8 @@
 /*titulos grandes*/
+.texts{
+    margin: .5rem 0;
+}
+
 .title_1st{
     font-family: var(--starTitle);
     font-size: 3.25rem;
@@ -7,7 +11,6 @@
 .subtitle{
     font-family: var(--text);
     font-weight: 700;
-
 }
 
 .title__2nd{
@@ -19,9 +22,33 @@
 
 .title__2nd--logo1{
     color: var( --darkBlue);
+    font-size: 1rem;
+}
+
+.title__2nd--logo2{
+    font-size: 1rem;
+}
+
+.normaltext--link{
+    text-decoration: none;
+    color: var(--fontDarkColor);
 }
 
 .destacado{
     font-weight: bolder;
+    text-decoration: none;
+}
+
+.destacado--link{
+    color: var(--darkBlue);
+    transition: 1s;
+}
+
+.destacado--link:visited{
+    color: var(--darkBlue);
+}
+
+.destacado--link:hover{
+    transform: scale(1.1);
 }
 

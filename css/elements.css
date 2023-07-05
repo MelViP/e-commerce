@@ -18,12 +18,8 @@
 
 .atoms{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
-}
-
-.atoms *{
-    margin: 1rem;
 }
 
 @font-face {

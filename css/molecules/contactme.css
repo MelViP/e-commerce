@@ -1,0 +1,5 @@
+.contactme--form{
+    display: flex;
+    width: 40vw;
+    flex-direction: column;
+}
