@@ -6,11 +6,14 @@
 .title_1st{
     font-family: var(--starTitle);
     font-size: 3.25rem;
+    margin-bottom: 2.5rem;
 }
 
 .subtitle{
     font-family: var(--text);
     font-weight: 700;
+    font-size: 1.5rem;
+    margin-bottom: 2.5rem;
 }
 
 .title__2nd{
