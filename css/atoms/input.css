@@ -4,6 +4,7 @@
     border: 2px solid transparent;
     border-bottom: 1px solid var(--gray);
     height: 2rem;
+    width: 96%;
 }
 
 .input--search{
@@ -17,3 +18,4 @@
 .textarea{
     height: 3rem;
 }
+

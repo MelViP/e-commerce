@@ -31,6 +31,7 @@
     <link rel="stylesheet" href="css/molecules/galery.css">
     <link rel="stylesheet" href="css/molecules/contactme.css">
     <link rel="stylesheet" href="css/molecules/menu.css">
+    <link rel="stylesheet" href="css/molecules/login.css">
     
 
     <!--ORGANISMS-->
@@ -59,8 +60,9 @@
 
 <div class="atoms">
     <input type="text" class="input" placeholder="name"></input>
+    <input type="email" class="input" placeholder="e-mail"></input>
+    <input type="password" class="input" placeholder="password"></input>
     <textarea class="input textarea" id="" cols="30" rows="10" placeholder="Text area"></textarea>
-
     <input type="text" class="input input--search" placeholder="Search"></input>
 </div>    
 
@@ -69,6 +71,8 @@
 <div class="atoms">
     <button class="btn"><span>BOTON</span><i></i></button>
     <button class="btn btn--login"><span>BOTON</span><i></i></button>
+    <button class="btn btn--enter"><span>BOTON</span><i></i></button>
+
 </div>    
 
 <!--Texts-->
@@ -128,11 +132,18 @@
     <button class="btn"><span>BOTON</span><i></i></button>
 </div>
 
-<!--Encabezado de cada galería-->
+<!--Encabezado de cada galería home-->
 
 <div class="molecules galery__header">
     <h2 class="texts title__2nd">Título 2</h2>
     <a href="#" class="texts destacado link">Link destacado</a>
+</div>
+
+<!--Encabezado de cada galería categoria-->
+
+<div class="molecules galery__header">
+    <h2 class="texts title__2nd">Título 2</h2>
+    <button class="btn"><span>BOTON</span><i></i></button>
 </div>
 
 <!--Ítem completo de cada producto-->
@@ -176,9 +187,18 @@
     <button class="btn"><span>BOTON</span><i></i></button>
 </form>
 
+<!--Formulario de login-->
+
+<form class="molecules login login--form">
+    <p class="texts destacado">Texto destacado</p>
+    <input type="email" class="input" placeholder="e-mail"></input>
+    <input type="password" class="input" placeholder="password"></input>
+    <button class="btn btn--enter"><span>BOTON</span><i></i></button>
+</form>
+
 <!--ORGANISMS-->
 
-<!--Header-->
+<!--Header HOME Y ADMINISTRACION-->
 <header class="header">
     <div class="header__content">
         <div class="molecules brand business-name--logotype">
@@ -195,6 +215,25 @@
         </div>
     
         <button class="btn btn--login"><span>BOTON</span><i></i></button>
+    </div>
+</header>
+
+
+<!--Header LOGIN Y PRODUCTOS-->
+<header class="header">
+    <div class="header__content">
+        <div class="molecules brand business-name--logotype">
+            <img class="image logo" src="/assets/elements/image.jpg" alt="Aquí va la descripción">
+            <div class="molecules brand business-name">
+                <h2 class="texts title__2nd title__2nd--logo2">Título 2</h2>
+                <h2 class="texts title__2nd title__2nd--logo1">Título 2</h2>
+            </div>
+        </div>
+    
+        <div class="molecules general general--search">
+            <input type="text" class="input input--search" placeholder="Search"></input>
+            <img class="image icon icon--search" src="/assets/elements/image.jpg" alt="Aquí va la descripción">
+        </div>     
     </div>
 </header>
 
@@ -262,7 +301,158 @@
         </ul>
     </div>
 </section>
-    
+
+<!--Galerías de la categoría-->
+
+<section class="galery">
+
+    <div class="galery__content">
+        <div class="molecules galery__header">
+            <h2 class="texts title__2nd">Título 2</h2>
+            <button class="btn"><span>BOTON</span><i></i></button>
+        </div>
+        <ul class="galery__itemlist itemlist--category">
+            <li class="molecules galery__item">
+                <img class="image thumbnail" src="/assets/elements/image.jpg" alt="Aquí va la descripción">
+                <p class="texts normaltext">Texto normal</p>
+                <p class="texts destacado">Texto destacado</p>
+                <a href="#" class="texts destacado link">Link destacado</a>
+            </li>
+
+            <li class="molecules galery__item">
+                <img class="image thumbnail" src="/assets/elements/image.jpg" alt="Aquí va la descripción">
+                <p class="texts normaltext">Texto normal</p>
+                <p class="texts destacado">Texto destacado</p>
+                <a href="#" class="texts destacado link">Link destacado</a>
+            </li>
+
+            <li class="molecules galery__item">
+                <img class="image thumbnail" src="/assets/elements/image.jpg" alt="Aquí va la descripción">
+                <p class="texts normaltext">Texto normal</p>
+                <p class="texts destacado">Texto destacado</p>
+                <a href="#" class="texts destacado link">Link destacado</a>
+            </li>
+
+            <li class="molecules galery__item">
+                <img class="image thumbnail" src="/assets/elements/image.jpg" alt="Aquí va la descripción">
+                <p class="texts normaltext">Texto normal</p>
+                <p class="texts destacado">Texto destacado</p>
+                <a href="#" class="texts destacado link">Link destacado</a>
+            </li>
+
+            <li class="molecules galery__item">
+                <img class="image thumbnail" src="/assets/elements/image.jpg" alt="Aquí va la descripción">
+                <p class="texts normaltext">Texto normal</p>
+                <p class="texts destacado">Texto destacado</p>
+                <a href="#" class="texts destacado link">Link destacado</a>
+            </li>
+
+            <li class="molecules galery__item">
+                <img class="image thumbnail" src="/assets/elements/image.jpg" alt="Aquí va la descripción">
+                <p class="texts normaltext">Texto normal</p>
+                <p class="texts destacado">Texto destacado</p>
+                <a href="#" class="texts destacado link">Link destacado</a>
+            </li>
+            <li class="molecules galery__item">
+                <img class="image thumbnail" src="/assets/elements/image.jpg" alt="Aquí va la descripción">
+                <p class="texts normaltext">Texto normal</p>
+                <p class="texts destacado">Texto destacado</p>
+                <a href="#" class="texts destacado link">Link destacado</a>
+            </li>
+
+            <li class="molecules galery__item">
+                <img class="image thumbnail" src="/assets/elements/image.jpg" alt="Aquí va la descripción">
+                <p class="texts normaltext">Texto normal</p>
+                <p class="texts destacado">Texto destacado</p>
+                <a href="#" class="texts destacado link">Link destacado</a>
+            </li>
+
+            <li class="molecules galery__item">
+                <img class="image thumbnail" src="/assets/elements/image.jpg" alt="Aquí va la descripción">
+                <p class="texts normaltext">Texto normal</p>
+                <p class="texts destacado">Texto destacado</p>
+                <a href="#" class="texts destacado link">Link destacado</a>
+            </li>
+
+            <li class="molecules galery__item">
+                <img class="image thumbnail" src="/assets/elements/image.jpg" alt="Aquí va la descripción">
+                <p class="texts normaltext">Texto normal</p>
+                <p class="texts destacado">Texto destacado</p>
+                <a href="#" class="texts destacado link">Link destacado</a>
+            </li>
+
+            <li class="molecules galery__item">
+                <img class="image thumbnail" src="/assets/elements/image.jpg" alt="Aquí va la descripción">
+                <p class="texts normaltext">Texto normal</p>
+                <p class="texts destacado">Texto destacado</p>
+                <a href="#" class="texts destacado link">Link destacado</a>
+            </li>
+
+            <li class="molecules galery__item">
+                <img class="image thumbnail" src="/assets/elements/image.jpg" alt="Aquí va la descripción">
+                <p class="texts normaltext">Texto normal</p>
+                <p class="texts destacado">Texto destacado</p>
+                <a href="#" class="texts destacado link">Link destacado</a>
+            </li>
+            <li class="molecules galery__item">
+                <img class="image thumbnail" src="/assets/elements/image.jpg" alt="Aquí va la descripción">
+                <p class="texts normaltext">Texto normal</p>
+                <p class="texts destacado">Texto destacado</p>
+                <a href="#" class="texts destacado link">Link destacado</a>
+            </li>
+
+            <li class="molecules galery__item">
+                <img class="image thumbnail" src="/assets/elements/image.jpg" alt="Aquí va la descripción">
+                <p class="texts normaltext">Texto normal</p>
+                <p class="texts destacado">Texto destacado</p>
+                <a href="#" class="texts destacado link">Link destacado</a>
+            </li>
+
+            <li class="molecules galery__item">
+                <img class="image thumbnail" src="/assets/elements/image.jpg" alt="Aquí va la descripción">
+                <p class="texts normaltext">Texto normal</p>
+                <p class="texts destacado">Texto destacado</p>
+                <a href="#" class="texts destacado link">Link destacado</a>
+            </li>
+
+            <li class="molecules galery__item">
+                <img class="image thumbnail" src="/assets/elements/image.jpg" alt="Aquí va la descripción">
+                <p class="texts normaltext">Texto normal</p>
+                <p class="texts destacado">Texto destacado</p>
+                <a href="#" class="texts destacado link">Link destacado</a>
+            </li>
+
+            <li class="molecules galery__item">
+                <img class="image thumbnail" src="/assets/elements/image.jpg" alt="Aquí va la descripción">
+                <p class="texts normaltext">Texto normal</p>
+                <p class="texts destacado">Texto destacado</p>
+                <a href="#" class="texts destacado link">Link destacado</a>
+            </li>
+
+            <li class="molecules galery__item">
+                <img class="image thumbnail" src="/assets/elements/image.jpg" alt="Aquí va la descripción">
+                <p class="texts normaltext">Texto normal</p>
+                <p class="texts destacado">Texto destacado</p>
+                <a href="#" class="texts destacado link">Link destacado</a>
+            </li>
+        </ul>
+    </div>
+</section>
+
+<!--Login-->
+
+<section class="login">
+
+    <div class="login__content">
+        <form class="molecules login login--form">
+            <p class="texts destacado">Texto destacado</p>
+            <input type="email" class="input" placeholder="e-mail"></input>
+            <input type="password" class="input" placeholder="password"></input>
+            <button class="btn btn--enter"><span>BOTON</span><i></i></button>
+        </form>
+    </div>
+</section>
+
 <!--Contact-->
 
 <section class="contactme">

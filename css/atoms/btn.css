@@ -18,5 +18,9 @@
     background-color: var(--backgroundWhite);
     color: var(--darkBlue);
     justify-self: end;
+}
 
+.btn--enter{
+    width: 100%;
+    padding: 1.5rem 0;
 }
