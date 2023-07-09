@@ -22,3 +22,8 @@
 .icon--search{
     margin-right: 1rem;
 }
+
+.picture{
+    width: 560px;
+    height: auto;
+}

@@ -19,3 +19,20 @@
     height: 3rem;
 }
 
+.input--select{
+    color: #808080;
+    border-bottom: none;
+    height: auto;
+    margin: 0;
+}
+
+.form-selector{
+    background: var(--backgroundWhite);
+    padding: 1.9rem 0;
+    width: 100%;
+}
+
+.option{
+    padding: 1.5rem 0;
+    color: #c4c4c4;
+}

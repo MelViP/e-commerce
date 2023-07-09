@@ -32,14 +32,14 @@
     <link rel="stylesheet" href="css/molecules/contactme.css">
     <link rel="stylesheet" href="css/molecules/menu.css">
     <link rel="stylesheet" href="css/molecules/login.css">
+    <link rel="stylesheet" href="css/molecules/adanewproduct.css">
+    <link rel="stylesheet" href="css/molecules/productdetail.css">
     
 
     <!--ORGANISMS-->
-    <link rel="stylesheet" href="css/organisms/header.css">
-    <link rel="stylesheet" href="css/organisms/galery.css">
-    <link rel="stylesheet" href="css/organisms/contactme.css">
-    <link rel="stylesheet" href="css/organisms/footer.css">
-    <link rel="stylesheet" href="css/organisms/banner.css">
+    <link rel="stylesheet" href="css/molecules/header.css">
+    <link rel="stylesheet" href="css/molecules/footer.css">
+
 
 </head>
 
@@ -54,6 +54,8 @@
     
     <img class="image icon" src="/assets/elements/image.jpg" alt="Aquí va la descripción">
 
+    <img class="image picture" src="/assets/elements/image.jpg" alt="Aquí va la descripción">
+
 </div>  
 
 <!--Inputs-->
@@ -64,6 +66,12 @@
     <input type="password" class="input" placeholder="password"></input>
     <textarea class="input textarea" id="" cols="30" rows="10" placeholder="Text area"></textarea>
     <input type="text" class="input input--search" placeholder="Search"></input>
+    <input type="url" name="url" class="input" placeholder="Ingrese una URL válida" required>
+    <option class="input input--option">Option name</option>
+    <input type="text" class="input" placeholder="produtc"></input>
+    <input type="number" name="price" step="0.01" min="0" placeholder="Price" required>
+
+
 </div>    
 
 <!--Buttons-->
@@ -96,6 +104,8 @@
     <a href="#" class="texts destacado destacado--link">Link destacado</a>
 
     <a href="#" class="texts normaltext">Link normal</a>
+
+    <p class="texts normaltext--select">Texto normal</p>
 </div>
 
 <!--MOLECULES-->
@@ -196,9 +206,26 @@
     <button class="btn btn--enter"><span>BOTON</span><i></i></button>
 </form>
 
+<!--Combo de selección de categoría-->
+<div class="category--selector">
+    <p class="texts input input--select">Category</p>
+    <select class="form-selector input" aria-label="Opciones">
+        <option selected class="input option">Option 1</option>
+        <option class="input input--option">Option 2</option>
+        <option class="input input--option">Option 3</option>
+    </select>
+</div>
+
+<!-- Textos de detalle de productos-->
+<div class="productDetail__texts">
+    <h1 class="texts title_1st product--tille">Product-name</h1>
+    <p class="texts destacado">Price</p>
+    <p class="texts normaltext">description</p>
+</div>
+
 <!--ORGANISMS-->
 
-<!--Header HOME Y ADMINISTRACION-->
+<!--Header HOME Y AGREGAR NUEVO PRODUCTO-->
 <header class="header">
     <div class="header__content">
         <div class="molecules brand business-name--logotype">
@@ -450,6 +477,44 @@
             <input type="password" class="input" placeholder="password"></input>
             <button class="btn btn--enter"><span>BOTON</span><i></i></button>
         </form>
+    </div>
+</section>
+
+<!--Agregar nuevo producto-->
+
+<section class="addANewProduct">
+
+    <div class="addANewProduct__content">
+        <h2 class="texts title__2nd">Título 2</h2>
+        <form class="molecules addANewProduct--form">    
+            <input type="url" name="url" class="input" placeholder="Ingrese una URL válida" required>
+            <!--Combo de selección de categoría-->
+            <div class="category--selector">
+                <p class="texts input input--select">Category</p>
+                <select class="form-selector input" aria-label="Opciones">
+                    <option selected class="input option">Option 1</option>
+                    <option class="input input--option">Option 2</option>
+                    <option class="input input--option">Option 3</option>
+                </select>
+            </div>
+            <input type="text" class="input" placeholder="produtc"></input>
+            <textarea class="input textarea" id="" cols="30" rows="10" placeholder="Text area"></textarea>
+            <button class="btn btn--enter"><span>BOTON</span><i></i></button>
+        </form>
+    </div>
+</section>
+
+<!--Detalle del producto-->
+
+<section class="productDetail">
+
+    <div class="productDetail__content">
+        <img class="image picture" src="/assets/elements/image.jpg" alt="Aquí va la descripción">
+        <div class="productDetail__texts">
+            <h1 class="texts title_1st product--tille">Product-name</h1>
+            <p class="texts destacado">Price</p>
+            <p class="texts normaltext">description</p>
+        </div>
     </div>
 </section>
 

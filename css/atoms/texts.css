@@ -40,6 +40,7 @@
 .destacado{
     font-weight: bolder;
     text-decoration: none;
+    font-size: 1.2rem;
 }
 
 .destacado--link{
@@ -54,4 +55,3 @@
 .destacado--link:hover{
     transform: scale(1.1);
 }
-
