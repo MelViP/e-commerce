@@ -1,12 +1,12 @@
-.galery--header{
-    width: 89vw;
+.galery__header{
     display: flex;
     flex-direction: row;
-    margin: 1rem;
     justify-content: space-between;
+    width: 100%;
+    margin: 2rem 0 1rem;
 }
 
-.galery--item{
+.galery__item{
     display: flex;
     flex-direction: column;
     padding: auto;

@@ -1,12 +1,24 @@
-.galery__box--home{
+.galery{
+    background: var(--backgroundGrey);
+    width: 100%;
     display: flex;
     flex-direction: column;
-    width: 90vw;
-    justify-content: space-around;
+    align-items: center;
+    padding: 3rem 0 3rem;
 }
 
-.galery--items{
+.galery__content{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+.galery__itemlist{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    width: 100%;
+
 }

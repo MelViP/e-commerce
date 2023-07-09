@@ -1,5 +1,7 @@
 .contactme--form{
     display: flex;
-    width: 40vw;
+    width: 40%;
+    min-height: 300px;
     flex-direction: column;
+    justify-content: space-between;
 }
